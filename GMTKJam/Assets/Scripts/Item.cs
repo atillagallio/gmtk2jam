@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-
+[Serializable]
 public struct Condition
 {
     public Item preReqItem;
@@ -37,16 +37,22 @@ public enum ConditionType
     Or,
     And,
 }
+
+public enum ItemType
+{
+    Unique,
+    Vicious,
+    Repeatable,
+}
 [CreateAssetMenu(fileName = "new Item", menuName = "ScriptableObj/Item")]
 public class Item : ScriptableObject
 {
-
     public GameObject visual;
+    public ItemType itemType;
     public int id;
     public string itemName;
     public ConditionType conditionType;
-
-    public List
+    public List<Condition> conditionList;
 
 
 }
