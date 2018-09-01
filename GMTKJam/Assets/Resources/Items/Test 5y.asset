@@ -21,3 +21,9 @@ MonoBehaviour:
   oldInfluence: 0
   conditionType: 0
   conditionList: []
+  entrepreneurInfluence: 1
+  hippieInfluence: 1
+  punkInfluence: 3
+  atleteInfluence: 1
+  wheelchairInfluence: 4
+  zenInfluence: 2
