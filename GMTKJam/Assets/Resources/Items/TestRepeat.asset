@@ -17,5 +17,13 @@ MonoBehaviour:
   itemName: TestRepeat
   minAge: 0
   maxAge: 10
+  adultInfluence: 0
+  oldInfluence: 0
   conditionType: 0
   conditionList: []
+  entrepreneurInfluence: 2
+  hippieInfluence: 4
+  punkInfluence: 1
+  atleteInfluence: 4
+  wheelchairInfluence: 1
+  zenInfluence: 1
