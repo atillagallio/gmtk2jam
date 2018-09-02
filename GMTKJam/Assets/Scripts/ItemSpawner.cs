@@ -41,7 +41,7 @@ public class ItemSpawner : MonoBehaviour
     }
 
 
-    static void AddItem(Item i, CharacterStats c)
+    public static void AddItem(Item i, CharacterStats c)
     {
         if (c.ItemCount.ContainsKey(i))
         {
@@ -102,7 +102,6 @@ public class ItemSpawner : MonoBehaviour
         {
             RepeatableItems.Add(item);
         }
-        AddItem(item, charInfo);
         return item != null;
     }
 

@@ -6,7 +6,7 @@ public class BaseItemScript : MonoBehaviour
 {
 
     // Use this for initialization
-    public ScriptableObject itemSO;
+    public Item itemSO;
 
     void Start()
     {
@@ -25,6 +25,8 @@ public class BaseItemScript : MonoBehaviour
     /// <param name="other">The other Collider involved in this collision.</param>
     void OnTriggerEnter(Collider other)
     {
-
+        print(other.name);
+        ItemSpawner.AddItem(itemSO, other.GetComponentInParent<CharacterStats>());
+        Destroy(this.gameObject);
     }
 }
