@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 65368381089841196}
   - component: {fileID: 114243170109432006}
   m_Layer: 0
-  m_Name: BaseItem
+  m_Name: _BaseItem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73,3 +73,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemSO: {fileID: 0}
+  ItemSound: {fileID: 0}

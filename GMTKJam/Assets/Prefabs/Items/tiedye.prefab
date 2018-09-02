@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4652538300464972}
   - component: {fileID: 212346668796719586}
+  - component: {fileID: 114259463354224548}
   m_Layer: 0
   m_Name: tie-dye
   m_TagString: Untagged
@@ -82,6 +83,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.7, y: 2.41, z: 1}
   m_Center: {x: 0, y: 1.89, z: 0}
+--- !u!114 &114259463354224548
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1254646762327152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fba36807db4af084488794efb1555161, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  axis: {x: 0, y: 0, z: 1}
+  Speed: 5
+  Range: 10
 --- !u!212 &212346668796719586
 SpriteRenderer:
   m_ObjectHideFlags: 1

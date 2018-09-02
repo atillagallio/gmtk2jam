@@ -232,7 +232,7 @@ GameObject:
   - component: {fileID: 65911556587982216}
   m_Layer: 0
   m_Name: Faculdade
-  m_TagString: Untagged
+  m_TagString: CustomAnimation
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
