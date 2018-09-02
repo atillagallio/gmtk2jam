@@ -19,7 +19,10 @@ MonoBehaviour:
   maxAge: 0
   itemBehaviourList: 
   conditionType: 0
-  conditionList: []
+  conditionList:
+  - preReqItem: {fileID: 11400000, guid: 055518030ab894d47af5f89f21139b4b, type: 2}
+    NumberOfTimes: 0
+    conditionLogic: 0
   entrepreneurInfluence: 0
   hippieInfluence: 2
   punkInfluence: 2

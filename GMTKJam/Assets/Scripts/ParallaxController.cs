@@ -13,6 +13,25 @@ public class ParallaxController : MonoBehaviour
   {
     LayerCopy = LayerDefinition.Select(Instantiate).ToList();
     LayerCopy.ForEach((el) => el.transform.position += Vector3.right * el.Side);
+    Func<bool, Action<ParallaxThing>> toggleRenderer = b =>
+    {
+      return (e) =>
+      {
+        var sprite = e.gameObject.GetComponent<SpriteRenderer>();
+        if (sprite == null) return;
+        sprite.enabled = b;
+      };
+    };
+    EventManager.OnEndGameEvent += () =>
+      {
+        LayerCopy.ForEach(toggleRenderer(false));
+        LayerDefinition.ForEach(toggleRenderer(false));
+      };
+    EventManager.OnStartGameEvent += () =>
+        {
+          LayerCopy.ForEach(toggleRenderer(true));
+          LayerDefinition.ForEach(toggleRenderer(true));
+        };
   }
 
   // Update is called once per frame

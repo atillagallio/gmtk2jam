@@ -19,10 +19,11 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4632366472696864}
-  - component: {fileID: 212876511935721452}
+  - component: {fileID: 212911163401858674}
+  - component: {fileID: 95913394809866538}
   m_Layer: 0
   m_Name: dog empresario
-  m_TagString: Untagged
+  m_TagString: CustomAnimation
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38,7 +39,7 @@ GameObject:
   - component: {fileID: 65217565549537932}
   m_Layer: 0
   m_Name: dog empresario
-  m_TagString: Untagged
+  m_TagString: CustomAnimation
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64,7 +65,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1045101401838568}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.79, z: 0}
+  m_LocalPosition: {x: 0, y: 1.94, z: 0}
   m_LocalScale: {x: 1.3843024, y: 1.3843025, z: 1.3843025}
   m_Children: []
   m_Father: {fileID: 4525820340531268}
@@ -82,7 +83,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.58, y: 4.92, z: 1}
   m_Center: {x: 1.45, y: 2.74, z: 0}
---- !u!212 &212876511935721452
+--- !u!95 &95913394809866538
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1045101401838568}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 49d306242a0197141b2f1e83d9e6603c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!212 &212911163401858674
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -117,12 +136,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d93e23b89bbac324593221ef996a8c4d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 740473184200abd4a810a637089c6124, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 3.27, y: 4.04}
+  m_Size: {x: 2.28, y: 4.03}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
