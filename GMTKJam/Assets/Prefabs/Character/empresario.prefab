@@ -1755,6 +1755,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a1ccd7b523551e4e8a50f35c0760325, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _anim: {fileID: 0}
+  jumpSound: {fileID: 8300000, guid: 88d1a630fcfc2ce4d8fa20957e3f6364, type: 3}
 --- !u!137 &137867029025090788
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

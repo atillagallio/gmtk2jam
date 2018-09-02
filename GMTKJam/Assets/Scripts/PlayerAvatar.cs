@@ -6,6 +6,7 @@ using UnityEngine;
 public class PlayerAvatar : MonoBehaviour
 {
   public Animator _anim;
+  public AudioClip jumpSound;
 
   public Animator Anim
   {

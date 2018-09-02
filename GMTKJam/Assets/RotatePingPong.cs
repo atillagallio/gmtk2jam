@@ -16,6 +16,7 @@ public class RotatePingPong : MonoBehaviour
   int types = 3;
   Vector3 initialPosition;
   Vector3 initialScale;
+  Quaternion initialRotation;
 
 
   void Start()
@@ -27,17 +28,18 @@ public class RotatePingPong : MonoBehaviour
     type = Random.Range(0, types);
     initialPosition = transform.position;
     initialScale = transform.localScale;
+    initialRotation = transform.rotation;
   }
   // Update is called once per frame
   void Update()
   {
     if (type == 1)
     {
-      transform.rotation = Quaternion.AngleAxis(Range * Mathf.Sin(offset + Speed * Time.time), axis);
+      transform.rotation = initialRotation * Quaternion.AngleAxis(Range * Mathf.Sin(offset + Speed * Time.time), axis);
     }
     else if (type == 2)
     {
-      transform.position = initialPosition + 0.1f * Vector3.up * Range * Mathf.Sin(offset + Speed * Time.time);
+      transform.position = initialPosition + 0.05f * Vector3.up * Range * Mathf.Sin(offset + Speed * Time.time);
     }
     else if (type == 3)
     {

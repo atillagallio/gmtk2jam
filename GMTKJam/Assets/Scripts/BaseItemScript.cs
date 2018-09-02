@@ -34,6 +34,7 @@ public class BaseItemScript : MonoBehaviour
     {
       print("DEATH");
     }
+    FindObjectOfType<BarulhoItem>().GetComponent<AudioSource>().Play();
     Destroy(this.gameObject);
   }
 }

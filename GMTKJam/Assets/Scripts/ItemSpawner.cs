@@ -106,7 +106,7 @@ public class ItemSpawner : MonoBehaviour
       incProb += item.DeathProbabilityIncrement * count;
     }
     var prob = baseProb + incProb / 100.0f;
-    print(prob);
+    //print(prob);
     return prob;
   }
 
