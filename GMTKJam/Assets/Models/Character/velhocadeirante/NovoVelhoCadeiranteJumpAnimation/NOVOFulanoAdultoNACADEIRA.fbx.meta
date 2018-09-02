@@ -236,6 +236,107 @@ ModelImporter:
     100460: transform7
     100462: transform8
     100464: transform9
+    100466: group1
+    100468: mesh_2143777199
+    100470: transform100
+    100472: transform101
+    100474: transform102
+    100476: transform103
+    100478: transform104
+    100480: transform105
+    100482: transform106
+    100484: transform107
+    100486: transform108
+    100488: transform109
+    100490: transform110
+    100492: transform111
+    100494: transform112
+    100496: transform113
+    100498: transform114
+    100500: transform115
+    100502: transform116
+    100504: transform117
+    100506: transform118
+    100508: transform119
+    100510: transform120
+    100512: transform121
+    100514: transform122
+    100516: transform123
+    100518: transform124
+    100520: transform125
+    100522: transform126
+    100524: transform127
+    100526: transform128
+    100528: transform129
+    100530: transform130
+    100532: transform131
+    100534: transform132
+    100536: transform133
+    100538: transform134
+    100540: transform135
+    100542: transform136
+    100544: transform137
+    100546: transform138
+    100548: transform139
+    100550: transform140
+    100552: transform141
+    100554: transform142
+    100556: transform143
+    100558: transform144
+    100560: transform145
+    100562: transform146
+    100564: transform147
+    100566: transform148
+    100568: transform149
+    100570: transform150
+    100572: transform151
+    100574: transform152
+    100576: transform153
+    100578: transform55
+    100580: transform56
+    100582: transform57
+    100584: transform58
+    100586: transform59
+    100588: transform60
+    100590: transform61
+    100592: transform62
+    100594: transform63
+    100596: transform64
+    100598: transform65
+    100600: transform66
+    100602: transform67
+    100604: transform68
+    100606: transform69
+    100608: transform70
+    100610: transform71
+    100612: transform72
+    100614: transform73
+    100616: transform74
+    100618: transform75
+    100620: transform76
+    100622: transform77
+    100624: transform78
+    100626: transform79
+    100628: transform80
+    100630: transform81
+    100632: transform82
+    100634: transform83
+    100636: transform84
+    100638: transform85
+    100640: transform86
+    100642: transform87
+    100644: transform88
+    100646: transform89
+    100648: transform90
+    100650: transform91
+    100652: transform92
+    100654: transform93
+    100656: transform94
+    100658: transform95
+    100660: transform96
+    100662: transform97
+    100664: transform98
+    100666: transform99
     400000: back1
     400002: group_1588188655
     400004: group_1697312890
@@ -469,6 +570,107 @@ ModelImporter:
     400460: transform7
     400462: transform8
     400464: transform9
+    400466: group1
+    400468: mesh_2143777199
+    400470: transform100
+    400472: transform101
+    400474: transform102
+    400476: transform103
+    400478: transform104
+    400480: transform105
+    400482: transform106
+    400484: transform107
+    400486: transform108
+    400488: transform109
+    400490: transform110
+    400492: transform111
+    400494: transform112
+    400496: transform113
+    400498: transform114
+    400500: transform115
+    400502: transform116
+    400504: transform117
+    400506: transform118
+    400508: transform119
+    400510: transform120
+    400512: transform121
+    400514: transform122
+    400516: transform123
+    400518: transform124
+    400520: transform125
+    400522: transform126
+    400524: transform127
+    400526: transform128
+    400528: transform129
+    400530: transform130
+    400532: transform131
+    400534: transform132
+    400536: transform133
+    400538: transform134
+    400540: transform135
+    400542: transform136
+    400544: transform137
+    400546: transform138
+    400548: transform139
+    400550: transform140
+    400552: transform141
+    400554: transform142
+    400556: transform143
+    400558: transform144
+    400560: transform145
+    400562: transform146
+    400564: transform147
+    400566: transform148
+    400568: transform149
+    400570: transform150
+    400572: transform151
+    400574: transform152
+    400576: transform153
+    400578: transform55
+    400580: transform56
+    400582: transform57
+    400584: transform58
+    400586: transform59
+    400588: transform60
+    400590: transform61
+    400592: transform62
+    400594: transform63
+    400596: transform64
+    400598: transform65
+    400600: transform66
+    400602: transform67
+    400604: transform68
+    400606: transform69
+    400608: transform70
+    400610: transform71
+    400612: transform72
+    400614: transform73
+    400616: transform74
+    400618: transform75
+    400620: transform76
+    400622: transform77
+    400624: transform78
+    400626: transform79
+    400628: transform80
+    400630: transform81
+    400632: transform82
+    400634: transform83
+    400636: transform84
+    400638: transform85
+    400640: transform86
+    400642: transform87
+    400644: transform88
+    400646: transform89
+    400648: transform90
+    400650: transform91
+    400652: transform92
+    400654: transform93
+    400656: transform94
+    400658: transform95
+    400660: transform96
+    400662: transform97
+    400664: transform98
+    400666: transform99
     2000000: back1
     2100000: material_23___21101
     2100002: material_22___21101
@@ -576,6 +778,7 @@ ModelImporter:
     2300192: mesh_992736299
     2300194: mesh_993656559
     2300196: mesh_99507648
+    2300198: mesh_2143777199
     3300000: mesh_1041089575
     3300002: mesh_1079259573
     3300004: mesh_1082183854
@@ -675,6 +878,7 @@ ModelImporter:
     3300192: mesh_992736299
     3300194: mesh_993656559
     3300196: mesh_99507648
+    3300198: mesh_2143777199
     4300000: mesh_1156318569
     4300002: mesh_418791608
     4300004: mesh_914193610
@@ -777,6 +981,7 @@ ModelImporter:
     4300198: mesh_2044365004
     4300200: mesh_1485446297
     4300202: mesh_2143777198
+    4300204: mesh_2143777199
     7400000: run_cadeirante
     9500000: //RootNode
     13700000: mesh_1485446297

@@ -74,6 +74,8 @@ ModelImporter:
     100136: mesh_981413022
     100138: mesh_992736299
     100140: //RootNode
+    100142: joint1
+    100144: joint2
     400000: group_1598515628
     400002: group_1925244537
     400004: group_2100626857
@@ -145,6 +147,8 @@ ModelImporter:
     400136: mesh_981413022
     400138: mesh_992736299
     400140: //RootNode
+    400142: joint1
+    400144: joint2
     2100000: material_6___17631
     2100002: material_23___17631
     2100004: material_21___17631

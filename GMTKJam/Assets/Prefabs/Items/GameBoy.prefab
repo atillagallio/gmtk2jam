@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 65763316863345298}
   m_Layer: 0
   m_Name: GameBoy
-  m_TagString: Untagged
+  m_TagString: CustomAnimation
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87,7 +87,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 18151dd6ee443fa4189e28c07a00a811, type: 3}
-  - {fileID: 2100002, guid: 18151dd6ee443fa4189e28c07a00a811, type: 3}
+  - {fileID: 2100000, guid: 39819bdfe7828aa439113c0654448640, type: 2}
   - {fileID: 2100004, guid: 18151dd6ee443fa4189e28c07a00a811, type: 3}
   - {fileID: 2100006, guid: 18151dd6ee443fa4189e28c07a00a811, type: 3}
   m_StaticBatchInfo:

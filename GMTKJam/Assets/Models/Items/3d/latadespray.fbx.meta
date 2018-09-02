@@ -31,7 +31,27 @@ ModelImporter:
     3300000: pCylinder4
     4300000: pCylinder4
     6400000: pCylinder4
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CanMaterial01
+    second: {fileID: 2100000, guid: 616422be0cb176c45b1753049a0aba01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong1
+    second: {fileID: 2100000, guid: 4b001401a7496934cac533a73fbb4825, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong2
+    second: {fileID: 2100000, guid: 9880f2a01949ccf40a6ca4f764cad805, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong4
+    second: {fileID: 2100000, guid: 5f76ddf6ecb2f2242a938340208fc972, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
