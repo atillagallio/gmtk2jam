@@ -9,6 +9,12 @@ public class CharacterStats : MonoBehaviour
     // Use this for initialization
     public Dictionary<Item, int> ItemCount = new Dictionary<Item, int>();
     public float Age;
+
+    private bool gameStarted;
+    void Start()
+    {
+        EventManager.OnStartGameEvent += () => { gameStarted = true; };
+    }
     public AdultInfluence GetHighestAdultInfluence()
     {
         return AdultInfluence.Normal;
@@ -21,6 +27,12 @@ public class CharacterStats : MonoBehaviour
 
     private float currTimer = 0;
     public void Update()
+    {
+        if (gameStarted)
+            UpdateGameTime();
+    }
+
+    void UpdateGameTime()
     {
         currTimer += Time.deltaTime;
         if (currTimer >= ageTimer)
