@@ -1,24 +1,18 @@
 fileFormatVersion: 2
-guid: 722157b2a2ed1584b8100d511eae3d8b
+guid: 18151dd6ee443fa4189e28c07a00a811
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
-    100002: pCylinder1
-    100004: pCylinder2
-    100006: pCylinder3
-    100008: transform1
-    100010: transform2
     400000: //RootNode
-    400002: pCylinder1
-    400004: pCylinder2
-    400006: pCylinder3
-    400008: transform1
-    400010: transform2
-    2100000: phong1
-    2300000: pCylinder3
-    3300000: pCylinder3
-    4300000: pCylinder3
+    2100000: GameBoyMaterial
+    2100002: GameScreenMaterial
+    2100004: TeclasGameboyMaterial
+    2100006: phong2
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: group2
+    6400000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1

@@ -1,17 +1,15 @@
 fileFormatVersion: 2
-guid: 18151dd6ee443fa4189e28c07a00a811
+guid: c24e735aff2697048bf83599e21f42a2
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: GameBoyMaterial
-    2100002: GameScreenMaterial
-    2100004: TeclasGameboyMaterial
-    2100006: phong2
+    2100000: phong1
     2300000: //RootNode
     3300000: //RootNode
-    4300000: group2
+    4300000: pCylinder6
+    6400000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1

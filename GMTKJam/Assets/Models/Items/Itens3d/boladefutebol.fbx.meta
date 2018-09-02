@@ -1,15 +1,15 @@
 fileFormatVersion: 2
-guid: 9dbf594ae87e6004bb7898b5017a37dd
+guid: e79b6c6900aed604883aabc3a05b901e
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: phong1
-    2100002: phong2
+    2100000: BolaMaterial
     2300000: //RootNode
     3300000: //RootNode
-    4300000: pCube1
+    4300000: pSphere1
+    6400000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1

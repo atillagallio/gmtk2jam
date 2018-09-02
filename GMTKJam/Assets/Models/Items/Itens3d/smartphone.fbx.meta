@@ -1,19 +1,16 @@
 fileFormatVersion: 2
-guid: 785020f6af19877439d98d71ed35f462
+guid: 9dbf594ae87e6004bb7898b5017a37dd
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: BlackMaterial
-    2100002: BlueMaterial
-    2100004: RedMaterial
-    2100006: OrangeMaterial
-    2100008: WhiteMaterial
-    2100010: GreenMaterial
+    2100000: phong1
+    2100002: phong2
     2300000: //RootNode
     3300000: //RootNode
     4300000: pCube1
+    6400000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1
