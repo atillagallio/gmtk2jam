@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(Animator))]
 public class PlayerAvatar : MonoBehaviour
 {
-  private Animator _anim;
+  public Animator _anim;
 
   public Animator Anim
   {

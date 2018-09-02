@@ -25,7 +25,7 @@ public class BaseItemScript : MonoBehaviour
   /// <param name="other">The other Collider involved in this collision.</param>
   void OnTriggerEnter(Collider other)
   {
-    print("COLLLL");
+    //print("COLLLL");
     //print(other.name);
     ItemSpawner.AddItem(itemSO, other.GetComponentInParent<CharacterStats>());
     Destroy(this.gameObject);

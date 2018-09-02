@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a06cac30a2a9af848aa1c46e9552f043, type: 3}
+  m_Name: Guitarra
+  m_EditorClassIdentifier: 
+  visual: {fileID: 1236890293074884, guid: 8bc057486ba17214387f4cdb57d72996, type: 2}
+  itemType: 0
+  id: 0
+  itemName: 
+  minAge: 0
+  maxAge: 0
+  itemBehaviourList: 
+  adultInfluence: 0
+  oldInfluence: 0
+  conditionType: 0
+  conditionList: []
+  entrepreneurInfluence: 0
+  hippieInfluence: 0
+  punkInfluence: 0
+  atleteInfluence: 0
+  wheelchairInfluence: 10
+  zenInfluence: 0

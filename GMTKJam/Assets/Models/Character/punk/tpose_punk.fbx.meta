@@ -38,6 +38,132 @@ ModelImporter:
     100064: mixamorig:Spine1
     100066: mixamorig:Spine2
     100068: //RootNode
+    100070: node_id10
+    100072: node_id11
+    100074: node_id12
+    100076: node_id129
+    100078: node_id129 1
+    100080: node_id129 10
+    100082: node_id129 11
+    100084: node_id129 12
+    100086: node_id129 13
+    100088: node_id129 14
+    100090: node_id129 15
+    100092: node_id129 16
+    100094: node_id129 17
+    100096: node_id129 18
+    100098: node_id129 19
+    100100: node_id129 2
+    100102: node_id129 20
+    100104: node_id129 21
+    100106: node_id129 22
+    100108: node_id129 23
+    100110: node_id129 24
+    100112: node_id129 25
+    100114: node_id129 26
+    100116: node_id129 27
+    100118: node_id129 28
+    100120: node_id129 29
+    100122: node_id129 3
+    100124: node_id129 30
+    100126: node_id129 31
+    100128: node_id129 32
+    100130: node_id129 33
+    100132: node_id129 34
+    100134: node_id129 35
+    100136: node_id129 36
+    100138: node_id129 37
+    100140: node_id129 38
+    100142: node_id129 39
+    100144: node_id129 4
+    100146: node_id129 40
+    100148: node_id129 41
+    100150: node_id129 42
+    100152: node_id129 43
+    100154: node_id129 44
+    100156: node_id129 45
+    100158: node_id129 46
+    100160: node_id129 47
+    100162: node_id129 48
+    100164: node_id129 49
+    100166: node_id129 5
+    100168: node_id129 50
+    100170: node_id129 51
+    100172: node_id129 52
+    100174: node_id129 53
+    100176: node_id129 54
+    100178: node_id129 55
+    100180: node_id129 56
+    100182: node_id129 57
+    100184: node_id129 58
+    100186: node_id129 59
+    100188: node_id129 6
+    100190: node_id129 60
+    100192: node_id129 61
+    100194: node_id129 62
+    100196: node_id129 63
+    100198: node_id129 64
+    100200: node_id129 65
+    100202: node_id129 66
+    100204: node_id129 67
+    100206: node_id129 68
+    100208: node_id129 69
+    100210: node_id129 7
+    100212: node_id129 70
+    100214: node_id129 71
+    100216: node_id129 72
+    100218: node_id129 73
+    100220: node_id129 74
+    100222: node_id129 75
+    100224: node_id129 76
+    100226: node_id129 77
+    100228: node_id129 78
+    100230: node_id129 79
+    100232: node_id129 8
+    100234: node_id129 80
+    100236: node_id129 81
+    100238: node_id129 82
+    100240: node_id129 83
+    100242: node_id129 84
+    100244: node_id129 85
+    100246: node_id129 86
+    100248: node_id129 87
+    100250: node_id129 88
+    100252: node_id129 89
+    100254: node_id129 9
+    100256: node_id129 90
+    100258: node_id129 91
+    100260: node_id129 92
+    100262: node_id129 93
+    100264: node_id129 94
+    100266: node_id129 95
+    100268: node_id129 96
+    100270: node_id13
+    100272: node_id14
+    100274: node_id15
+    100276: node_id16
+    100278: node_id17
+    100280: node_id18
+    100282: node_id19
+    100284: node_id20
+    100286: node_id21
+    100288: node_id22
+    100290: node_id23
+    100292: node_id24
+    100294: node_id25
+    100296: node_id26
+    100298: node_id27
+    100300: node_id28
+    100302: node_id29
+    100304: node_id30
+    100306: node_id31
+    100308: node_id4
+    100310: node_id5
+    100312: node_id6
+    100314: node_id7
+    100316: node_id8
+    100318: node_id9
+    100320: root
     400000: mesh_1062608636
     400002: mixamorig:Head
     400004: mixamorig:HeadTop_End
@@ -73,6 +199,132 @@ ModelImporter:
     400064: mixamorig:Spine1
     400066: mixamorig:Spine2
     400068: //RootNode
+    400070: node_id10
+    400072: node_id11
+    400074: node_id12
+    400076: node_id129
+    400078: node_id129 1
+    400080: node_id129 10
+    400082: node_id129 11
+    400084: node_id129 12
+    400086: node_id129 13
+    400088: node_id129 14
+    400090: node_id129 15
+    400092: node_id129 16
+    400094: node_id129 17
+    400096: node_id129 18
+    400098: node_id129 19
+    400100: node_id129 2
+    400102: node_id129 20
+    400104: node_id129 21
+    400106: node_id129 22
+    400108: node_id129 23
+    400110: node_id129 24
+    400112: node_id129 25
+    400114: node_id129 26
+    400116: node_id129 27
+    400118: node_id129 28
+    400120: node_id129 29
+    400122: node_id129 3
+    400124: node_id129 30
+    400126: node_id129 31
+    400128: node_id129 32
+    400130: node_id129 33
+    400132: node_id129 34
+    400134: node_id129 35
+    400136: node_id129 36
+    400138: node_id129 37
+    400140: node_id129 38
+    400142: node_id129 39
+    400144: node_id129 4
+    400146: node_id129 40
+    400148: node_id129 41
+    400150: node_id129 42
+    400152: node_id129 43
+    400154: node_id129 44
+    400156: node_id129 45
+    400158: node_id129 46
+    400160: node_id129 47
+    400162: node_id129 48
+    400164: node_id129 49
+    400166: node_id129 5
+    400168: node_id129 50
+    400170: node_id129 51
+    400172: node_id129 52
+    400174: node_id129 53
+    400176: node_id129 54
+    400178: node_id129 55
+    400180: node_id129 56
+    400182: node_id129 57
+    400184: node_id129 58
+    400186: node_id129 59
+    400188: node_id129 6
+    400190: node_id129 60
+    400192: node_id129 61
+    400194: node_id129 62
+    400196: node_id129 63
+    400198: node_id129 64
+    400200: node_id129 65
+    400202: node_id129 66
+    400204: node_id129 67
+    400206: node_id129 68
+    400208: node_id129 69
+    400210: node_id129 7
+    400212: node_id129 70
+    400214: node_id129 71
+    400216: node_id129 72
+    400218: node_id129 73
+    400220: node_id129 74
+    400222: node_id129 75
+    400224: node_id129 76
+    400226: node_id129 77
+    400228: node_id129 78
+    400230: node_id129 79
+    400232: node_id129 8
+    400234: node_id129 80
+    400236: node_id129 81
+    400238: node_id129 82
+    400240: node_id129 83
+    400242: node_id129 84
+    400244: node_id129 85
+    400246: node_id129 86
+    400248: node_id129 87
+    400250: node_id129 88
+    400252: node_id129 89
+    400254: node_id129 9
+    400256: node_id129 90
+    400258: node_id129 91
+    400260: node_id129 92
+    400262: node_id129 93
+    400264: node_id129 94
+    400266: node_id129 95
+    400268: node_id129 96
+    400270: node_id13
+    400272: node_id14
+    400274: node_id15
+    400276: node_id16
+    400278: node_id17
+    400280: node_id18
+    400282: node_id19
+    400284: node_id20
+    400286: node_id21
+    400288: node_id22
+    400290: node_id23
+    400292: node_id24
+    400294: node_id25
+    400296: node_id26
+    400298: node_id27
+    400300: node_id28
+    400302: node_id29
+    400304: node_id30
+    400306: node_id31
+    400308: node_id4
+    400310: node_id5
+    400312: node_id6
+    400314: node_id7
+    400316: node_id8
+    400318: node_id9
+    400320: root
     2100000: material_21___14422
     2100002: material_23___14422
     2100004: material_6___14422
@@ -80,7 +332,395 @@ ModelImporter:
     2100008: material_22___14422
     2100010: material_10___14422
     2100012: material_8___14422
+    2100014: Material_128
+    2100016: Material_129
+    2100018: Material_130
+    2100020: Material_131
+    2100022: Material_132
+    2100024: Material_133
+    2100026: Material_134
+    2100028: Material_135
+    2100030: Material_136
+    2100032: Material_137
+    2100034: Material_138
+    2100036: Material_139
+    2100038: Material_140
+    2100040: Material_141
+    2100042: Material_338
+    2100044: Material_143
+    2100046: Material_144
+    2100048: Material_145
+    2100050: Material_146
+    2100052: Material_147
+    2100054: Material_148
+    2100056: Material_149
+    2100058: Material_150
+    2100060: Material_151
+    2100062: Material_152
+    2100064: Material_153
+    2100066: Material_154
+    2100068: Material_155
+    2100070: Material_156
+    2100072: Material_157
+    2100074: Material_158
+    2100076: Material_159
+    2100078: Material_160
+    2100080: Material_161
+    2100082: Material_162
+    2100084: Material_163
+    2100086: Material_164
+    2100088: Material_165
+    2100090: Material_166
+    2100092: Material_167
+    2100094: Material_168
+    2100096: Material_169
+    2100098: Material_170
+    2100100: Material_171
+    2100102: Material_172
+    2100104: Material_173
+    2100106: Material_174
+    2100108: Material_175
+    2100110: Material_176
+    2100112: Material_177
+    2100114: Material_178
+    2100116: Material_179
+    2100118: Material_180
+    2100120: Material_181
+    2100122: Material_182
+    2100124: Material_183
+    2100126: Material_184
+    2100128: Material_185
+    2100130: Material_186
+    2100132: Material_187
+    2100134: Material_188
+    2100136: Material_189
+    2100138: Material_190
+    2100140: Material_191
+    2100142: Material_192
+    2100144: Material_193
+    2100146: Material_194
+    2100148: Material_195
+    2100150: Material_196
+    2100152: Material_340
+    2100154: Material_198
+    2100156: Material_199
+    2100158: Material_200
+    2100160: Material_201
+    2100162: Material_202
+    2100164: Material_203
+    2100166: Material_204
+    2100168: Material_205
+    2100170: Material_342
+    2100172: Material_207
+    2100174: Material_208
+    2100176: Material_209
+    2100178: Material_210
+    2100180: Material_211
+    2100182: Material_212
+    2100184: Material_213
+    2100186: Material_214
+    2100188: Material_215
+    2100190: Material_216
+    2100192: Material_217
+    2100194: Material_218
+    2100196: Material_219
+    2100198: Material_220
+    2100200: Material_221
+    2100202: Material_222
+    2100204: Material_223
+    2100206: Material_224
+    2300000: node_id129
+    2300002: node_id129 1
+    2300004: node_id129 10
+    2300006: node_id129 11
+    2300008: node_id129 12
+    2300010: node_id129 13
+    2300012: node_id129 14
+    2300014: node_id129 15
+    2300016: node_id129 16
+    2300018: node_id129 17
+    2300020: node_id129 18
+    2300022: node_id129 19
+    2300024: node_id129 2
+    2300026: node_id129 20
+    2300028: node_id129 21
+    2300030: node_id129 22
+    2300032: node_id129 23
+    2300034: node_id129 24
+    2300036: node_id129 25
+    2300038: node_id129 26
+    2300040: node_id129 27
+    2300042: node_id129 28
+    2300044: node_id129 29
+    2300046: node_id129 3
+    2300048: node_id129 30
+    2300050: node_id129 31
+    2300052: node_id129 32
+    2300054: node_id129 33
+    2300056: node_id129 34
+    2300058: node_id129 35
+    2300060: node_id129 36
+    2300062: node_id129 37
+    2300064: node_id129 38
+    2300066: node_id129 39
+    2300068: node_id129 4
+    2300070: node_id129 40
+    2300072: node_id129 41
+    2300074: node_id129 42
+    2300076: node_id129 43
+    2300078: node_id129 44
+    2300080: node_id129 45
+    2300082: node_id129 46
+    2300084: node_id129 47
+    2300086: node_id129 48
+    2300088: node_id129 49
+    2300090: node_id129 5
+    2300092: node_id129 50
+    2300094: node_id129 51
+    2300096: node_id129 52
+    2300098: node_id129 53
+    2300100: node_id129 54
+    2300102: node_id129 55
+    2300104: node_id129 56
+    2300106: node_id129 57
+    2300108: node_id129 58
+    2300110: node_id129 59
+    2300112: node_id129 6
+    2300114: node_id129 60
+    2300116: node_id129 61
+    2300118: node_id129 62
+    2300120: node_id129 63
+    2300122: node_id129 64
+    2300124: node_id129 65
+    2300126: node_id129 66
+    2300128: node_id129 67
+    2300130: node_id129 68
+    2300132: node_id129 69
+    2300134: node_id129 7
+    2300136: node_id129 70
+    2300138: node_id129 71
+    2300140: node_id129 72
+    2300142: node_id129 73
+    2300144: node_id129 74
+    2300146: node_id129 75
+    2300148: node_id129 76
+    2300150: node_id129 77
+    2300152: node_id129 78
+    2300154: node_id129 79
+    2300156: node_id129 8
+    2300158: node_id129 80
+    2300160: node_id129 81
+    2300162: node_id129 82
+    2300164: node_id129 83
+    2300166: node_id129 84
+    2300168: node_id129 85
+    2300170: node_id129 86
+    2300172: node_id129 87
+    2300174: node_id129 88
+    2300176: node_id129 89
+    2300178: node_id129 9
+    2300180: node_id129 90
+    2300182: node_id129 91
+    2300184: node_id129 92
+    2300186: node_id129 93
+    2300188: node_id129 94
+    2300190: node_id129 95
+    2300192: node_id129 96
+    3300000: node_id129
+    3300002: node_id129 1
+    3300004: node_id129 10
+    3300006: node_id129 11
+    3300008: node_id129 12
+    3300010: node_id129 13
+    3300012: node_id129 14
+    3300014: node_id129 15
+    3300016: node_id129 16
+    3300018: node_id129 17
+    3300020: node_id129 18
+    3300022: node_id129 19
+    3300024: node_id129 2
+    3300026: node_id129 20
+    3300028: node_id129 21
+    3300030: node_id129 22
+    3300032: node_id129 23
+    3300034: node_id129 24
+    3300036: node_id129 25
+    3300038: node_id129 26
+    3300040: node_id129 27
+    3300042: node_id129 28
+    3300044: node_id129 29
+    3300046: node_id129 3
+    3300048: node_id129 30
+    3300050: node_id129 31
+    3300052: node_id129 32
+    3300054: node_id129 33
+    3300056: node_id129 34
+    3300058: node_id129 35
+    3300060: node_id129 36
+    3300062: node_id129 37
+    3300064: node_id129 38
+    3300066: node_id129 39
+    3300068: node_id129 4
+    3300070: node_id129 40
+    3300072: node_id129 41
+    3300074: node_id129 42
+    3300076: node_id129 43
+    3300078: node_id129 44
+    3300080: node_id129 45
+    3300082: node_id129 46
+    3300084: node_id129 47
+    3300086: node_id129 48
+    3300088: node_id129 49
+    3300090: node_id129 5
+    3300092: node_id129 50
+    3300094: node_id129 51
+    3300096: node_id129 52
+    3300098: node_id129 53
+    3300100: node_id129 54
+    3300102: node_id129 55
+    3300104: node_id129 56
+    3300106: node_id129 57
+    3300108: node_id129 58
+    3300110: node_id129 59
+    3300112: node_id129 6
+    3300114: node_id129 60
+    3300116: node_id129 61
+    3300118: node_id129 62
+    3300120: node_id129 63
+    3300122: node_id129 64
+    3300124: node_id129 65
+    3300126: node_id129 66
+    3300128: node_id129 67
+    3300130: node_id129 68
+    3300132: node_id129 69
+    3300134: node_id129 7
+    3300136: node_id129 70
+    3300138: node_id129 71
+    3300140: node_id129 72
+    3300142: node_id129 73
+    3300144: node_id129 74
+    3300146: node_id129 75
+    3300148: node_id129 76
+    3300150: node_id129 77
+    3300152: node_id129 78
+    3300154: node_id129 79
+    3300156: node_id129 8
+    3300158: node_id129 80
+    3300160: node_id129 81
+    3300162: node_id129 82
+    3300164: node_id129 83
+    3300166: node_id129 84
+    3300168: node_id129 85
+    3300170: node_id129 86
+    3300172: node_id129 87
+    3300174: node_id129 88
+    3300176: node_id129 89
+    3300178: node_id129 9
+    3300180: node_id129 90
+    3300182: node_id129 91
+    3300184: node_id129 92
+    3300186: node_id129 93
+    3300188: node_id129 94
+    3300190: node_id129 95
+    3300192: node_id129 96
     4300000: mesh_1062608636
+    4300002: node_id129
+    4300004: node_id129
+    4300006: node_id129
+    4300008: node_id129
+    4300010: node_id129
+    4300012: node_id129
+    4300014: node_id129
+    4300016: node_id129
+    4300018: node_id129
+    4300020: node_id129
+    4300022: node_id129
+    4300024: node_id129
+    4300026: node_id129
+    4300028: node_id129
+    4300030: node_id129
+    4300032: node_id129
+    4300034: node_id129
+    4300036: node_id129
+    4300038: node_id129
+    4300040: node_id129
+    4300042: node_id129
+    4300044: node_id129
+    4300046: node_id129
+    4300048: node_id129
+    4300050: node_id129
+    4300052: node_id129
+    4300054: node_id129
+    4300056: node_id129
+    4300058: node_id129
+    4300060: node_id129
+    4300062: node_id129
+    4300064: node_id129
+    4300066: node_id129
+    4300068: node_id129
+    4300070: node_id129
+    4300072: node_id129
+    4300074: node_id129
+    4300076: node_id129
+    4300078: node_id129
+    4300080: node_id129
+    4300082: node_id129
+    4300084: node_id129
+    4300086: node_id129
+    4300088: node_id129
+    4300090: node_id129
+    4300092: node_id129
+    4300094: node_id129
+    4300096: node_id129
+    4300098: node_id129
+    4300100: node_id129
+    4300102: node_id129
+    4300104: node_id129
+    4300106: node_id129
+    4300108: node_id129
+    4300110: node_id129
+    4300112: node_id129
+    4300114: node_id129
+    4300116: node_id129
+    4300118: node_id129
+    4300120: node_id129
+    4300122: node_id129
+    4300124: node_id129
+    4300126: node_id129
+    4300128: node_id129
+    4300130: node_id129
+    4300132: node_id129
+    4300134: node_id129
+    4300136: node_id129
+    4300138: node_id129
+    4300140: node_id129
+    4300142: node_id129
+    4300144: node_id129
+    4300146: node_id129
+    4300148: node_id129
+    4300150: node_id129
+    4300152: node_id129
+    4300154: node_id129
+    4300156: node_id129
+    4300158: node_id129
+    4300160: node_id129
+    4300162: node_id129
+    4300164: node_id129
+    4300166: node_id129
+    4300168: node_id129
+    4300170: node_id129
+    4300172: node_id129
+    4300174: node_id129
+    4300176: node_id129
+    4300178: node_id129
+    4300180: node_id129
+    4300182: node_id129
+    4300184: node_id129
+    4300186: node_id129
+    4300188: node_id129
+    4300190: node_id129
+    4300192: node_id129
+    4300194: node_id129
     7400000: mixamo.com
     9500000: //RootNode
     13700000: mesh_1062608636
