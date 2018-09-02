@@ -445,18 +445,18 @@ MonoBehaviour:
   Crianca: {fileID: 114008966359490204, guid: ba1a6af96660b1b409140712d5162127, type: 2}
   AdultoEmpresario: {fileID: 114660470371844074, guid: fd392b21398c83e4087f6926887cf1fb,
     type: 2}
-  AdultoHippie: {fileID: 114660470371844074, guid: fd392b21398c83e4087f6926887cf1fb,
+  AdultoHippie: {fileID: 114545489951884502, guid: 79341e97efd851d48b9efefe81f83e55,
     type: 2}
-  AdultoPunk: {fileID: 114660470371844074, guid: fd392b21398c83e4087f6926887cf1fb,
+  AdultoPunk: {fileID: 114431837757528110, guid: 990074222a9314441a3716f42eda3bff,
     type: 2}
-  AdultoNormal: {fileID: 114660470371844074, guid: fd392b21398c83e4087f6926887cf1fb,
+  AdultoNormal: {fileID: 114678789468188096, guid: 530597800d34d414f802c299af0beabc,
     type: 2}
-  VelhoAtleta: {fileID: 114660470371844074, guid: fd392b21398c83e4087f6926887cf1fb,
+  VelhoAtleta: {fileID: 114081454088277634, guid: 5ed7761154d46e84a932c9416a8b3be5,
     type: 2}
   VelhoCadeirante: {fileID: 114660470371844074, guid: fd392b21398c83e4087f6926887cf1fb,
     type: 2}
   VelhoZen: {fileID: 114660470371844074, guid: fd392b21398c83e4087f6926887cf1fb, type: 2}
-  VelhoNormal: {fileID: 114660470371844074, guid: fd392b21398c83e4087f6926887cf1fb,
+  VelhoNormal: {fileID: 114299240727806168, guid: fc90153d907d8d64b9bbc2d92973d7a2,
     type: 2}
   evolutionType: 0
 --- !u!1 &248020276
@@ -910,6 +910,10 @@ Prefab:
     - target: {fileID: 4415501946382860, guid: ba1a6af96660b1b409140712d5162127, type: 2}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1147363767530482, guid: ba1a6af96660b1b409140712d5162127, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ba1a6af96660b1b409140712d5162127, type: 2}

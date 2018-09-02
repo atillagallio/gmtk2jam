@@ -72,6 +72,8 @@ public class EvolutionManager : MonoBehaviour
       EvolutionDots.Add(EvolutionType.AdultoEmpresario, Vector2.Dot(resultVector, evolutionVector[EvolutionType.AdultoEmpresario]));
       EvolutionDots.Add(EvolutionType.AdultoHippie, Vector2.Dot(resultVector, evolutionVector[EvolutionType.AdultoHippie]));
       EvolutionDots.Add(EvolutionType.AdultoPunk, Vector2.Dot(resultVector, evolutionVector[EvolutionType.AdultoPunk]));
+      if (resultVector.magnitude <= evolutionThreshold)
+        return EvolutionType.AdultoNormal;
     }
     else if (charInfo.Age >= seniorAge)
     {
@@ -79,12 +81,9 @@ public class EvolutionManager : MonoBehaviour
       EvolutionDots.Add(EvolutionType.VelhoAtleta, Vector2.Dot(resultVector, evolutionVector[EvolutionType.VelhoAtleta]));
       EvolutionDots.Add(EvolutionType.VelhoCadeirante, Vector2.Dot(resultVector, evolutionVector[EvolutionType.VelhoCadeirante]));
       EvolutionDots.Add(EvolutionType.VelhoZen, Vector2.Dot(resultVector, evolutionVector[EvolutionType.VelhoZen]));
+      if (resultVector.magnitude <= evolutionThreshold)
+        return EvolutionType.VelhoNormal;
     }
-
-
-    if (resultVector.magnitude <= evolutionThreshold)
-      return EvolutionType.AdultoNormal;
-
 
     EvolutionType selectedType = EvolutionType.Crianca;
     float biggestDotValue = -1;
