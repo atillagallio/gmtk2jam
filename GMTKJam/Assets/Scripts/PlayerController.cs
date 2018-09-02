@@ -25,7 +25,8 @@ public class PlayerController : MonoBehaviour
   {
     get
     {
-      return currentAvatar.charController;
+      return GetComponent<CharacterController>();
+      //treturn currentAvatar.charController;
     }
   }
 

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Animator))]
-[RequireComponent(typeof(CharacterController))]
 public class PlayerAvatar : MonoBehaviour
 {
   public Animator Anim;
