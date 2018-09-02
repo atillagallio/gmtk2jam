@@ -5,15 +5,17 @@ using UnityEngine;
 [RequireComponent(typeof(Animator))]
 public class PlayerAvatar : MonoBehaviour
 {
-  public Animator Anim;
-  public CharacterController charController;
-  void Start()
-  {
-    Anim = GetComponent<Animator>();
-    charController = GetComponent<CharacterController>();
-  }
+  private Animator _anim;
 
-  void Update()
+  public Animator Anim
   {
+    get
+    {
+      if (_anim == null)
+      {
+        _anim = GetComponent<Animator>();
+      }
+      return _anim;
+    }
   }
 }

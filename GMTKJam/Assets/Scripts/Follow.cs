@@ -19,6 +19,6 @@ public class Follow : MonoBehaviour
   {
     transform.position =
       Vector3.Scale(transform.position, Vector3.up) +
-      Vector3.Scale(ThingToFollow.currentAvatar.transform.position + offset, Vector3.one - Vector3.up);
+      Vector3.Scale(ThingToFollow.transform.position + offset, Vector3.one - Vector3.up);
   }
 }

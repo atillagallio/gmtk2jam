@@ -1,7 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+public enum EvolutionType
+{
+  Crianca,
+  AdultoPunk,
+  AdultoEmpresario,
+  AdultoHippie,
+  AdultoNormal,
+  VelhoNormal,
+  VelhoAtleta,
+  VelhoCadeirante,
+  VelhoZen,
+}
 public class EvolutionManager : MonoBehaviour
 {
 
@@ -11,18 +22,6 @@ public class EvolutionManager : MonoBehaviour
   public int seniorAge;
 
   public float evolutionThreshold;
-
-  public enum EvolutionType
-  {
-    AdultNormal,
-    Entrepreneur,
-    Hippie,
-    Punk,
-    OldNormal,
-    OldAtlete,
-    OldWheelchair,
-    OldZen,
-  }
 
   public EvolutionType VerifyEvolution()
   {
@@ -34,14 +33,14 @@ public class EvolutionManager : MonoBehaviour
     int wheelchairInfluence = 0;
     int zenInfluence = 0;
 
-
     Dictionary<EvolutionType, Vector2> evolutionVector = new Dictionary<EvolutionType, Vector2>();
-    evolutionVector.Add(EvolutionType.Entrepreneur, Vector2.right);
-    evolutionVector.Add(EvolutionType.Hippie, Vector2.right.Rotate(120f));
-    evolutionVector.Add(EvolutionType.Punk, Vector2.right.Rotate(240f));
-    evolutionVector.Add(EvolutionType.OldAtlete, Vector2.right);
-    evolutionVector.Add(EvolutionType.OldWheelchair, Vector2.right.Rotate(120f));
-    evolutionVector.Add(EvolutionType.OldZen, Vector2.right.Rotate(240f));
+    evolutionVector.Add(EvolutionType.AdultoEmpresario, Vector2.right);
+    evolutionVector.Add(EvolutionType.AdultoHippie, Vector2.right.Rotate(120f));
+    evolutionVector.Add(EvolutionType.AdultoPunk, Vector2.right.Rotate(240f));
+    evolutionVector.Add(EvolutionType.VelhoAtleta, Vector2.right);
+    evolutionVector.Add(EvolutionType.VelhoCadeirante, Vector2.right.Rotate(120f));
+    evolutionVector.Add(EvolutionType.VelhoZen, Vector2.right.Rotate(240f));
+    evolutionVector.Add(EvolutionType.Crianca, Vector2.right.Rotate(240f));
 
 
     foreach (var item in charInfo.ItemCount)
@@ -54,42 +53,51 @@ public class EvolutionManager : MonoBehaviour
       zenInfluence += item.Key.zenInfluence * item.Value;
     }
 
-    evolutionVector[EvolutionType.Entrepreneur] *= entrepreneurInfluence;
-    evolutionVector[EvolutionType.Hippie] *= hippieInfluence;
-    evolutionVector[EvolutionType.Punk] *= punkInfluence;
-    evolutionVector[EvolutionType.OldAtlete] *= atleteInfluence;
-    evolutionVector[EvolutionType.OldWheelchair] *= wheelchairInfluence;
-    evolutionVector[EvolutionType.OldZen] *= zenInfluence;
+    evolutionVector[EvolutionType.AdultoEmpresario] *= entrepreneurInfluence;
+    evolutionVector[EvolutionType.AdultoHippie] *= hippieInfluence;
+    evolutionVector[EvolutionType.AdultoPunk] *= punkInfluence;
+    evolutionVector[EvolutionType.VelhoAtleta] *= atleteInfluence;
+    evolutionVector[EvolutionType.VelhoCadeirante] *= wheelchairInfluence;
+    evolutionVector[EvolutionType.VelhoZen] *= zenInfluence;
 
     Vector2 resultVector = Vector2.zero;
-    Dictionary<float, EvolutionType> EvolutionDots = new Dictionary<float, EvolutionType>();
-    if (charInfo.Age >= adultAge && charInfo.Age <= seniorAge)
+    Dictionary<EvolutionType, float> EvolutionDots = new Dictionary<EvolutionType, float>();
+    if (charInfo.Age < adultAge)
     {
-      resultVector = evolutionVector[EvolutionType.Entrepreneur] + evolutionVector[EvolutionType.Hippie] + evolutionVector[EvolutionType.Punk];
-      EvolutionDots.Add(Vector2.Dot(resultVector, evolutionVector[EvolutionType.Entrepreneur]), EvolutionType.Entrepreneur);
-      EvolutionDots.Add(Vector2.Dot(resultVector, evolutionVector[EvolutionType.Hippie]), EvolutionType.Hippie);
-      EvolutionDots.Add(Vector2.Dot(resultVector, evolutionVector[EvolutionType.Punk]), EvolutionType.Punk);
+      return EvolutionType.Crianca;
+    }
+    else if (charInfo.Age >= adultAge && charInfo.Age <= seniorAge)
+    {
+      resultVector = evolutionVector[EvolutionType.AdultoEmpresario] + evolutionVector[EvolutionType.AdultoHippie] + evolutionVector[EvolutionType.AdultoPunk];
+      EvolutionDots.Add(EvolutionType.AdultoEmpresario, Vector2.Dot(resultVector, evolutionVector[EvolutionType.AdultoEmpresario]));
+      EvolutionDots.Add(EvolutionType.AdultoHippie, Vector2.Dot(resultVector, evolutionVector[EvolutionType.AdultoHippie]));
+      EvolutionDots.Add(EvolutionType.AdultoPunk, Vector2.Dot(resultVector, evolutionVector[EvolutionType.AdultoPunk]));
     }
     else if (charInfo.Age >= seniorAge)
     {
-      resultVector = evolutionVector[EvolutionType.OldAtlete] + evolutionVector[EvolutionType.OldWheelchair] + evolutionVector[EvolutionType.OldZen];
-      EvolutionDots.Add(Vector2.Dot(resultVector, evolutionVector[EvolutionType.OldAtlete]), EvolutionType.OldAtlete);
-      EvolutionDots.Add(Vector2.Dot(resultVector, evolutionVector[EvolutionType.OldWheelchair]), EvolutionType.OldWheelchair);
-      EvolutionDots.Add(Vector2.Dot(resultVector, evolutionVector[EvolutionType.OldZen]), EvolutionType.OldZen);
+      resultVector = evolutionVector[EvolutionType.VelhoAtleta] + evolutionVector[EvolutionType.VelhoCadeirante] + evolutionVector[EvolutionType.VelhoZen];
+      EvolutionDots.Add(EvolutionType.VelhoAtleta, Vector2.Dot(resultVector, evolutionVector[EvolutionType.VelhoAtleta]));
+      EvolutionDots.Add(EvolutionType.VelhoCadeirante, Vector2.Dot(resultVector, evolutionVector[EvolutionType.VelhoCadeirante]));
+      EvolutionDots.Add(EvolutionType.VelhoZen, Vector2.Dot(resultVector, evolutionVector[EvolutionType.VelhoZen]));
     }
 
 
     if (resultVector.magnitude <= evolutionThreshold)
-      return EvolutionType.AdultNormal;
+      return EvolutionType.AdultoNormal;
 
 
-    float biggestDotValue = 0;
-    foreach (var value in EvolutionDots.Keys)
+    EvolutionType selectedType = EvolutionType.Crianca;
+    float biggestDotValue = -1;
+    foreach (var kvp in EvolutionDots)
     {
-      if (value >= biggestDotValue) biggestDotValue = value;
+      if (kvp.Value >= biggestDotValue)
+      {
+        selectedType = kvp.Key;
+        biggestDotValue = kvp.Value;
+      }
     }
 
-    print(EvolutionDots[biggestDotValue]);
-    return EvolutionDots[biggestDotValue];
+    //print(EvolutionDots[biggestDotValue]);
+    return selectedType;
   }
 }
