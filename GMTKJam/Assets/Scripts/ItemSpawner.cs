@@ -176,6 +176,7 @@ public class ItemSpawner : MonoBehaviour
       var itemImg = Instantiate(i.visual, initialCharPos + playerDistance + itemPos, Quaternion.identity);
       var itemScript = itemImg.AddComponent<BaseItemScript>();
       itemScript.itemSO = i;
+      itemImg.transform.GetChild(0).gameObject.AddComponent<RotatePingPong>();
 
       foreach (var itBehaviour in i.itemBehaviourList)
       {
