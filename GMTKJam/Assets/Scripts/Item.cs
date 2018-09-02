@@ -61,6 +61,12 @@ public enum OldInfluence
     Zen,
 }
 
+public enum ItemBehaviour
+{
+    UpSpawn,
+    UpDown,
+}
+
 [CreateAssetMenu(fileName = "new Item", menuName = "ScriptableObj/Item")]
 public class Item : ScriptableObject
 {
@@ -70,6 +76,7 @@ public class Item : ScriptableObject
     public string itemName;
     public float minAge;
     public float maxAge;
+    public List<ItemBehaviour> itemBehaviourList;
     public AdultInfluence adultInfluence;
     public OldInfluence oldInfluence;
     public ConditionType conditionType;

@@ -17,6 +17,7 @@ MonoBehaviour:
   itemName: TestRepeat 3y
   minAge: 3
   maxAge: 0
+  itemBehaviourList: 01000000
   adultInfluence: 0
   oldInfluence: 0
   conditionType: 0

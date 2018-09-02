@@ -8,6 +8,8 @@ public class ItemSpawner : MonoBehaviour
 {
 
     public EvolutionManager evoManager;
+    public GameObject baseItemPrefab;
+    public GameObject player;
 
     [SerializeField]
     List<Item> UniqueItems;
@@ -28,15 +30,18 @@ public class ItemSpawner : MonoBehaviour
         }
     }
 
+    private Vector3 initialCharPos;
     void Awake()
     {
+
         var allItems = Resources.LoadAll<Item>("Items");
         RepeatableItems = allItems.Where((i) => (i.itemType == ItemType.Addictive || i.itemType == ItemType.Repeatable)).ToList();
         UniqueItems = allItems.Where((i) => (i.itemType == ItemType.Unique)).ToList();
+        initialCharPos = player.transform.position;
     }
 
 
-    static void AddItem(Item i, CharacterStats c)
+    public static void AddItem(Item i, CharacterStats c)
     {
         if (c.ItemCount.ContainsKey(i))
         {
@@ -92,17 +97,19 @@ public class ItemSpawner : MonoBehaviour
         {
             UniqueItems.Remove(item);
         }
+        RepeatableItems = RepeatableItems.Shuffle().ToList();
         if (item.itemType == ItemType.Addictive)
         {
             RepeatableItems.Add(item);
         }
-        AddItem(item, charInfo);
         return item != null;
     }
 
 
+    [Header("Spawn Info")]
     public float spawnCooldown;
     public float SpawnInterval;
+    public float spawnDistance;
     // Use this for initialization
     void Start()
     {
@@ -115,12 +122,39 @@ public class ItemSpawner : MonoBehaviour
         if (spawnCooldown < 0)
         {
             spawnCooldown = SpawnInterval;
-            Item i;
-            if (ChooseSpawnItem(out i))
+            SpawnItem();
+
+        }
+    }
+
+    void SpawnItem()
+    {
+        Item i;
+        if (ChooseSpawnItem(out i))
+        {
+            Vector3 itemPos = Vector3.right * spawnDistance;
+            Vector3 playerDistance = new Vector3(player.transform.position.x - initialCharPos.x, 0, 0);
+            var instantiatedItem = Instantiate(baseItemPrefab, initialCharPos + playerDistance + itemPos, Quaternion.identity);
+            instantiatedItem.GetComponent<BaseItemScript>().itemSO = i;
+            var itemImg = Instantiate(i.visual, instantiatedItem.transform.position, Quaternion.identity);
+            itemImg.transform.SetParent(instantiatedItem.transform);
+
+            foreach (var itBehaviour in i.itemBehaviourList)
             {
-                print(i.name);
-                evoManager.VerifyEvolution();
+                if (itBehaviour == ItemBehaviour.UpSpawn)
+                {
+                    instantiatedItem.AddComponent<UpSpawnBehaviour>();
+                }
+
+                if (itBehaviour == ItemBehaviour.UpDown)
+                {
+                    instantiatedItem.AddComponent<UpDownBehaviour>();
+                }
             }
+
+            print(i.name);
+
+            evoManager.VerifyEvolution();
         }
     }
 }
