@@ -140,6 +140,19 @@ public class ItemSpawner : MonoBehaviour
             var itemImg = Instantiate(i.visual, instantiatedItem.transform.position, Quaternion.identity);
             itemImg.transform.SetParent(instantiatedItem.transform);
 
+            foreach (var itBehaviour in i.itemBehaviourList)
+            {
+                if (itBehaviour == ItemBehaviour.UpSpawn)
+                {
+                    instantiatedItem.AddComponent<UpSpawnBehaviour>();
+                }
+
+                if (itBehaviour == ItemBehaviour.UpDown)
+                {
+                    instantiatedItem.AddComponent<UpDownBehaviour>();
+                }
+            }
+
             print(i.name);
 
             evoManager.VerifyEvolution();
