@@ -14,6 +14,13 @@ public class CharacterStats : MonoBehaviour
     void Start()
     {
         EventManager.OnStartGameEvent += () => { gameStarted = true; };
+        EventManager.OnStartPlayerRun += () => { Age = 0; };
+        EventManager.OnEndGameEvent += () =>
+        {
+            gameStarted = false; currTimer = 0;
+            ItemCount.Clear();
+
+        };
     }
     public AdultInfluence GetHighestAdultInfluence()
     {
