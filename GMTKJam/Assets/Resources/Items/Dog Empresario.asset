@@ -15,17 +15,15 @@ MonoBehaviour:
   itemType: 0
   id: 0
   itemName: 
-  minAge: 0
+  minAge: 20
   maxAge: 0
   itemBehaviourList: 
-  adultInfluence: 0
-  oldInfluence: 0
   conditionType: 0
   conditionList: []
-  entrepreneurInfluence: 0
+  entrepreneurInfluence: 2
   hippieInfluence: 0
   punkInfluence: 0
   atleteInfluence: 0
-  wheelchairInfluence: 10
+  wheelchairInfluence: 0
   zenInfluence: 0
-  DeathProbabilityIncrement: 10
+  DeathProbabilityIncrement: 0

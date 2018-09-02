@@ -78,8 +78,6 @@ public class Item : ScriptableObject
   public float minAge;
   public float maxAge;
   public List<ItemBehaviour> itemBehaviourList;
-  public AdultInfluence adultInfluence;
-  public OldInfluence oldInfluence;
   public ConditionType conditionType;
   public List<Condition> conditionList;
 

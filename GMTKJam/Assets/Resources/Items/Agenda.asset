@@ -12,20 +12,21 @@ MonoBehaviour:
   m_Name: Agenda
   m_EditorClassIdentifier: 
   visual: {fileID: 1640023484238150, guid: 56baa0fbdd6e9314288290a86d1951f3, type: 2}
-  itemType: 0
+  itemType: 2
   id: 0
   itemName: 
-  minAge: 0
+  minAge: 8
   maxAge: 0
   itemBehaviourList: 
-  adultInfluence: 0
-  oldInfluence: 0
   conditionType: 0
-  conditionList: []
-  entrepreneurInfluence: 0
-  hippieInfluence: 0
+  conditionList:
+  - preReqItem: {fileID: 11400000, guid: 31fcf9d13a3a805469a66823bb1eff3c, type: 2}
+    NumberOfTimes: 0
+    conditionLogic: 0
+  entrepreneurInfluence: 2
+  hippieInfluence: 1
   punkInfluence: 0
-  atleteInfluence: 0
-  wheelchairInfluence: 10
-  zenInfluence: 0
-  DeathProbabilityIncrement: 10
+  atleteInfluence: 1
+  wheelchairInfluence: 0
+  zenInfluence: 2
+  DeathProbabilityIncrement: 0

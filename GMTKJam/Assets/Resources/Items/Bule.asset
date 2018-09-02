@@ -12,20 +12,18 @@ MonoBehaviour:
   m_Name: Bule
   m_EditorClassIdentifier: 
   visual: {fileID: 1945959256107076, guid: f266d42ae315ba74298a181003affb90, type: 2}
-  itemType: 0
+  itemType: 1
   id: 0
   itemName: 
-  minAge: 0
+  minAge: 10
   maxAge: 0
   itemBehaviourList: 
-  adultInfluence: 0
-  oldInfluence: 0
   conditionType: 0
   conditionList: []
   entrepreneurInfluence: 0
-  hippieInfluence: 0
+  hippieInfluence: 1
   punkInfluence: 0
   atleteInfluence: 0
-  wheelchairInfluence: 10
-  zenInfluence: 0
-  DeathProbabilityIncrement: 10
+  wheelchairInfluence: 0
+  zenInfluence: 1
+  DeathProbabilityIncrement: 0

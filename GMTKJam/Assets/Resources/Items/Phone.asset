@@ -12,20 +12,18 @@ MonoBehaviour:
   m_Name: Phone
   m_EditorClassIdentifier: 
   visual: {fileID: 1595219977986416, guid: 5864010471b3fef4a9ad5fe4498c0223, type: 2}
-  itemType: 0
+  itemType: 1
   id: 0
   itemName: 
-  minAge: 0
+  minAge: 13
   maxAge: 0
   itemBehaviourList: 
-  adultInfluence: 0
-  oldInfluence: 0
   conditionType: 0
   conditionList: []
-  entrepreneurInfluence: 0
+  entrepreneurInfluence: 1
   hippieInfluence: 0
-  punkInfluence: 0
+  punkInfluence: 1
   atleteInfluence: 0
-  wheelchairInfluence: 10
-  zenInfluence: 0
-  DeathProbabilityIncrement: 10
+  wheelchairInfluence: 0
+  zenInfluence: -1
+  DeathProbabilityIncrement: 0

@@ -105,12 +105,14 @@ public class ItemSpawner : MonoBehaviour
       var count = kvp.Value;
       incProb += item.DeathProbabilityIncrement * count;
     }
-    return baseProb + incProb / 100.0f;
+    var prob = baseProb + incProb / 100.0f;
+    print(prob);
+    return prob;
   }
 
   bool ChooseSpawnItem(out Item item)
   {
-    if (UnityEngine.Random.Range(0, 1) < GetDeathProbability())
+    if (UnityEngine.Random.Range(0.0f, 1.0f) < GetDeathProbability())
     {
       item = DeathItems.FirstOrDefault();
       return item != null;
@@ -169,21 +171,22 @@ public class ItemSpawner : MonoBehaviour
     {
       Vector3 itemPos = Vector3.right * spawnDistance;
       Vector3 playerDistance = new Vector3(player.transform.position.x - initialCharPos.x, 0, 0);
-      var instantiatedItem = Instantiate(baseItemPrefab, initialCharPos + playerDistance + itemPos, Quaternion.identity);
-      instantiatedItem.GetComponent<BaseItemScript>().itemSO = i;
-      var itemImg = Instantiate(i.visual, instantiatedItem.transform.position, Quaternion.identity);
-      itemImg.transform.SetParent(instantiatedItem.transform);
+      //var instantiatedItem = Instantiate(i.visual, initialCharPos + playerDistance + itemPos, Quaternion.identity);
+      //instantiatedItem.GetComponent<BaseItemScript>().itemSO = i;
+      var itemImg = Instantiate(i.visual, initialCharPos + playerDistance + itemPos, Quaternion.identity);
+      var itemScript = itemImg.AddComponent<BaseItemScript>();
+      itemScript.itemSO = i;
 
       foreach (var itBehaviour in i.itemBehaviourList)
       {
         if (itBehaviour == ItemBehaviour.UpSpawn)
         {
-          instantiatedItem.AddComponent<UpSpawnBehaviour>();
+          itemImg.AddComponent<UpSpawnBehaviour>();
         }
 
         if (itBehaviour == ItemBehaviour.UpDown)
         {
-          instantiatedItem.AddComponent<UpDownBehaviour>();
+          itemImg.AddComponent<UpDownBehaviour>();
         }
       }
 

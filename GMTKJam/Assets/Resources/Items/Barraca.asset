@@ -12,20 +12,18 @@ MonoBehaviour:
   m_Name: Barraca
   m_EditorClassIdentifier: 
   visual: {fileID: 1738636663673072, guid: a92e932b3967ad4488bcbf0f5be85da1, type: 2}
-  itemType: 0
+  itemType: 2
   id: 0
   itemName: 
-  minAge: 0
+  minAge: 20
   maxAge: 0
   itemBehaviourList: 
-  adultInfluence: 0
-  oldInfluence: 0
   conditionType: 0
   conditionList: []
   entrepreneurInfluence: 0
-  hippieInfluence: 0
+  hippieInfluence: 2
   punkInfluence: 0
   atleteInfluence: 0
-  wheelchairInfluence: 10
-  zenInfluence: 0
-  DeathProbabilityIncrement: 10
+  wheelchairInfluence: 0
+  zenInfluence: 2
+  DeathProbabilityIncrement: 0

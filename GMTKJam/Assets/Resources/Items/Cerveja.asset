@@ -12,20 +12,18 @@ MonoBehaviour:
   m_Name: Cerveja
   m_EditorClassIdentifier: 
   visual: {fileID: 1010408172480222, guid: 6f17952396ae1db438835cf7fac87dd2, type: 2}
-  itemType: 0
+  itemType: 1
   id: 0
   itemName: 
-  minAge: 0
+  minAge: 15
   maxAge: 0
   itemBehaviourList: 
-  adultInfluence: 0
-  oldInfluence: 0
   conditionType: 0
   conditionList: []
   entrepreneurInfluence: 0
   hippieInfluence: 0
-  punkInfluence: 0
-  atleteInfluence: 0
-  wheelchairInfluence: 10
-  zenInfluence: 0
-  DeathProbabilityIncrement: 10
+  punkInfluence: 1
+  atleteInfluence: -1
+  wheelchairInfluence: 1
+  zenInfluence: -1
+  DeathProbabilityIncrement: 0.1

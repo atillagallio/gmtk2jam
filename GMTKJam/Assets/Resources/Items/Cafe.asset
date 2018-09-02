@@ -12,20 +12,18 @@ MonoBehaviour:
   m_Name: Cafe
   m_EditorClassIdentifier: 
   visual: {fileID: 1587297532715116, guid: d5a3b4b9e2d0c9741852f065abfed8c1, type: 2}
-  itemType: 0
+  itemType: 1
   id: 0
   itemName: 
-  minAge: 0
+  minAge: 18
   maxAge: 0
   itemBehaviourList: 
-  adultInfluence: 0
-  oldInfluence: 0
   conditionType: 0
   conditionList: []
-  entrepreneurInfluence: 0
+  entrepreneurInfluence: 2
   hippieInfluence: 0
-  punkInfluence: 0
+  punkInfluence: 1
   atleteInfluence: 0
-  wheelchairInfluence: 10
+  wheelchairInfluence: 0
   zenInfluence: 0
-  DeathProbabilityIncrement: 10
+  DeathProbabilityIncrement: 0

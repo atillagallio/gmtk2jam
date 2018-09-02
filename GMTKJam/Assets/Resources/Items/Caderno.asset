@@ -12,20 +12,21 @@ MonoBehaviour:
   m_Name: Caderno
   m_EditorClassIdentifier: 
   visual: {fileID: 1412038812098296, guid: 9c14724843c1fde45831abe5ee6a7a9b, type: 2}
-  itemType: 0
+  itemType: 2
   id: 0
   itemName: 
-  minAge: 0
+  minAge: 5
   maxAge: 0
   itemBehaviourList: 
-  adultInfluence: 0
-  oldInfluence: 0
   conditionType: 0
-  conditionList: []
-  entrepreneurInfluence: 0
+  conditionList:
+  - preReqItem: {fileID: 11400000, guid: 31fcf9d13a3a805469a66823bb1eff3c, type: 2}
+    NumberOfTimes: 0
+    conditionLogic: 0
+  entrepreneurInfluence: 1
   hippieInfluence: 0
   punkInfluence: 0
   atleteInfluence: 0
-  wheelchairInfluence: 10
-  zenInfluence: 0
-  DeathProbabilityIncrement: 10
+  wheelchairInfluence: 0
+  zenInfluence: 1
+  DeathProbabilityIncrement: 0

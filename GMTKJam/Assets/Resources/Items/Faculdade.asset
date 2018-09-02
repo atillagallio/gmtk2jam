@@ -15,17 +15,30 @@ MonoBehaviour:
   itemType: 0
   id: 0
   itemName: 
-  minAge: 0
+  minAge: 18
   maxAge: 0
   itemBehaviourList: 
-  adultInfluence: 0
-  oldInfluence: 0
-  conditionType: 0
-  conditionList: []
-  entrepreneurInfluence: 0
+  conditionType: 1
+  conditionList:
+  - preReqItem: {fileID: 11400000, guid: 31fcf9d13a3a805469a66823bb1eff3c, type: 2}
+    NumberOfTimes: 0
+    conditionLogic: 0
+  - preReqItem: {fileID: 11400000, guid: 3c36b8e5cca50ff4292284c100291506, type: 2}
+    NumberOfTimes: 0
+    conditionLogic: 0
+  - preReqItem: {fileID: 11400000, guid: 8f629d7beb70fad4abab50f02a487a2a, type: 2}
+    NumberOfTimes: 0
+    conditionLogic: 0
+  - preReqItem: {fileID: 11400000, guid: 7715f13bce449154f807cd4c951575ff, type: 2}
+    NumberOfTimes: 0
+    conditionLogic: 0
+  - preReqItem: {fileID: 11400000, guid: d0942a9e001bdc842bce31eb240b93e5, type: 2}
+    NumberOfTimes: 0
+    conditionLogic: 0
+  entrepreneurInfluence: 4
   hippieInfluence: 0
   punkInfluence: 0
   atleteInfluence: 0
-  wheelchairInfluence: 10
+  wheelchairInfluence: 0
   zenInfluence: 0
-  DeathProbabilityIncrement: 10
+  DeathProbabilityIncrement: 0

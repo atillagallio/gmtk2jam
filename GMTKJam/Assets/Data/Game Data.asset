@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: Game Data
   m_EditorClassIdentifier: 
   GameDuration: 300
-  MaxLifetime: 100
+  MaxLifetime: 123
   ItemSpawnInterval: 5
   Speed: 10
   JumpHeight: 8

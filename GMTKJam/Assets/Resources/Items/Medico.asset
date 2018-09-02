@@ -12,20 +12,18 @@ MonoBehaviour:
   m_Name: Medico
   m_EditorClassIdentifier: 
   visual: {fileID: 1764993963562170, guid: 529aa7d9ee0331c43b0b05eee51e8a30, type: 2}
-  itemType: 0
+  itemType: 2
   id: 0
   itemName: 
-  minAge: 0
+  minAge: 40
   maxAge: 0
   itemBehaviourList: 
-  adultInfluence: 0
-  oldInfluence: 0
   conditionType: 0
   conditionList: []
   entrepreneurInfluence: 0
   hippieInfluence: 0
   punkInfluence: 0
   atleteInfluence: 0
-  wheelchairInfluence: 10
+  wheelchairInfluence: -2
   zenInfluence: 0
-  DeathProbabilityIncrement: 10
+  DeathProbabilityIncrement: -10

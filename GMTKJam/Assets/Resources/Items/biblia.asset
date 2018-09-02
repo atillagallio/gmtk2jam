@@ -12,20 +12,18 @@ MonoBehaviour:
   m_Name: biblia
   m_EditorClassIdentifier: 
   visual: {fileID: 1013189980367130, guid: 6a6825dce86e872409e3d0691ad7cd24, type: 2}
-  itemType: 0
+  itemType: 2
   id: 0
   itemName: biblia
   minAge: 0
   maxAge: 0
   itemBehaviourList: 
-  adultInfluence: 0
-  oldInfluence: 0
   conditionType: 0
   conditionList: []
-  entrepreneurInfluence: 0
+  entrepreneurInfluence: 1
   hippieInfluence: 0
-  punkInfluence: 0
-  atleteInfluence: 0
-  wheelchairInfluence: 10
-  zenInfluence: 0
-  DeathProbabilityIncrement: 10
+  punkInfluence: -1
+  atleteInfluence: 2
+  wheelchairInfluence: 0
+  zenInfluence: 1
+  DeathProbabilityIncrement: 0

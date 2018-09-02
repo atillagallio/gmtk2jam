@@ -12,20 +12,18 @@ MonoBehaviour:
   m_Name: Grana
   m_EditorClassIdentifier: 
   visual: {fileID: 1363997591942978, guid: ef27ea8a611fe8a4f9e2509116109bd6, type: 2}
-  itemType: 0
+  itemType: 1
   id: 0
   itemName: 
-  minAge: 0
+  minAge: 18
   maxAge: 0
   itemBehaviourList: 
-  adultInfluence: 0
-  oldInfluence: 0
   conditionType: 0
   conditionList: []
-  entrepreneurInfluence: 0
+  entrepreneurInfluence: 1
   hippieInfluence: 0
   punkInfluence: 0
   atleteInfluence: 0
-  wheelchairInfluence: 10
+  wheelchairInfluence: 0
   zenInfluence: 0
-  DeathProbabilityIncrement: 10
+  DeathProbabilityIncrement: 0
