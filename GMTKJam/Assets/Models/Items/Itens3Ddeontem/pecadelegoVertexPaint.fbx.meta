@@ -1,33 +1,14 @@
 fileFormatVersion: 2
-guid: 003fa8591a33e9d4b8da943388a8bc20
+guid: 0d878c5d461ef0f4c99e28135e6920f1
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: televisao:pCube1
-    100002: televisao:pCylinder1
-    100004: televisao:pCylinder2
-    100006: televisao:pSphere1
-    100008: //RootNode
-    400000: televisao:pCube1
-    400002: televisao:pCylinder1
-    400004: televisao:pCylinder2
-    400006: televisao:pSphere1
-    400008: //RootNode
-    2100000: televisao_TvMaterial
-    2100002: televisao_TvScreenMaterial
-    2100004: televisao_phong5
-    2300000: televisao:pCube1
-    2300002: televisao:pCylinder1
-    2300004: televisao:pCylinder2
-    2300006: televisao:pSphere1
-    3300000: televisao:pCube1
-    3300002: televisao:pCylinder1
-    3300004: televisao:pCylinder2
-    3300006: televisao:pSphere1
-    4300000: televisao:pCube1
-    4300002: televisao:pSphere1
-    4300004: televisao:pCylinder1
-    4300006: televisao:pCylinder2
+    100000: //RootNode
+    400000: //RootNode
+    2100000: LegoMaterial
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: pCube1
   externalObjects: {}
   materials:
     importMaterials: 1

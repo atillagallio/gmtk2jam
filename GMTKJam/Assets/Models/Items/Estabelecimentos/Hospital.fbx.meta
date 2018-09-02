@@ -1,14 +1,18 @@
 fileFormatVersion: 2
-guid: b7ecbc6d22b996f42a6ed088f75696d2
+guid: 0c461011fa3efa14691844dc83ecb362
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: LegoMaterial
+    2100000: HospitalMaterial2
+    2100002: phong7
+    2100004: HospitalLetterMaterial1
+    2100006: HospitalMaterial1
+    2100008: phong8
     2300000: //RootNode
     3300000: //RootNode
-    4300000: pCube1
+    4300000: polySurface1
   externalObjects: {}
   materials:
     importMaterials: 1

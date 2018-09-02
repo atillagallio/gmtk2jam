@@ -429,7 +429,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 700e1f8a6dbd77149ac92176adcc747c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ageTimer: 0.1
+  ageTimer: 0.2
   Age: 0
 --- !u!114 &240483700
 MonoBehaviour:
@@ -455,7 +455,7 @@ MonoBehaviour:
     type: 2}
   VelhoCadeirante: {fileID: 114660470371844074, guid: fd392b21398c83e4087f6926887cf1fb,
     type: 2}
-  VelhoZen: {fileID: 114660470371844074, guid: fd392b21398c83e4087f6926887cf1fb, type: 2}
+  VelhoZen: {fileID: 114502339014962762, guid: 7ff0d35d76d18af42b9187b51a613a1f, type: 2}
   VelhoNormal: {fileID: 114299240727806168, guid: fc90153d907d8d64b9bbc2d92973d7a2,
     type: 2}
   evolutionType: 0
