@@ -28,3 +28,4 @@ MonoBehaviour:
   atleteInfluence: 0
   wheelchairInfluence: 10
   zenInfluence: 0
+  DeathProbabilityIncrement: 10
