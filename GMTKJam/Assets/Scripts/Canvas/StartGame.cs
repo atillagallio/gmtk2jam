@@ -41,7 +41,7 @@ public class StartGame : MonoBehaviour
     public float cryDelay = 2;
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && !startedGame)
+        if ((Input.GetKeyDown(KeyCode.Space) || (Input.GetMouseButtonDown(0))) && !startedGame)
         {
             EventManager.OnStartGameEvent();
         }
